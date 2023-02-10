@@ -1,0 +1,83 @@
+body {
+    box-sizing: border-box; 
+    display: flex;
+    margin: 0 auto;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: "Optima", sans-serif;
+    
+    background-image: url("images/circuit1.jpg");
+}
+
+.flexbox {
+    display: flex;
+    padding: 1em;
+  
+    flex-wrap: wrap;
+    border-radius: 1em;
+    align-items: center;
+    gap: 1rem 5rem; 
+
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.back-to-top {
+    background-color: white;
+    padding: 1.5rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 90%;
+}
+
+p {
+    color: white;
+    
+    padding: 1rem;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: 18px;
+
+    background-color: black;
+    opacity: 80%;
+
+    line-height: 1.75;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5%;
+    background-color: black;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: white;
+    opacity: 90%;
+    font-family: "Optima", sans-serif;
+
+    background-color: black;
+    padding: 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: black;
+    opacity: 90%;
+    padding: 1rem;
+    
+}
