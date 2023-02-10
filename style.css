@@ -6,12 +6,12 @@ body {
     flex-direction: column;
     
     font-family: cursive;
-    background: linear-gradient(180deg, rgba(2,0,31,1) 0%, rgba(9,121,113,1) 55%, rgba(0,255,236,1) 100%);
+    background: linear-gradient(180deg, rgba(2,0,31,1) 0%, rgba(12,61,196,1) 46%, rgba(175,113,244,1) 100%);
 
 }
 
 p {
-    color: #86bfbd;
+    color: #ada3e6;
     
     padding: 1rem;
     letter-spacing: 2px;
@@ -48,12 +48,12 @@ a{
     letter-spacing: 2px;
     text-decoration: none;
 
-    color: #cce3e2;
+    color: #d4cdfa;
 }
 
 h1, h2, h3 {
     text-align: center;
-    color: #67a6a4;
+    color: #7566cc;
 
     letter-spacing: 4px;
 }
@@ -67,6 +67,17 @@ ul {
 li {
     text-align: center;
     line-height: 5rem;
+}
+
+.back-to-top {
+    background-color: #02001f;
+    opacity: 50%;
+    
+    padding: 1.5rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 html {
