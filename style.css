@@ -33,6 +33,16 @@ img {
     align-content: center;
 }
 
+figcaption {
+    color: #ada3e6;
+    
+    padding: 1rem;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: 15px;
+    text-align: center;
+}
+
 nav {
     padding: 2rem;
 
@@ -49,6 +59,10 @@ a{
     text-decoration: none;
 
     color: #d4cdfa;
+}
+
+a:hover {
+    color: blue;
 }
 
 h1, h2, h3 {
