@@ -6,50 +6,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#container {
-    width: 90%;
-    margin: auto;
-}
-
-nav {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 15px;
-    row-gap: 15px;
-}
-
-nav section {
-    border: 2px solid #c7a38f;
-    min-height: 600px;
-    background-color: #c7a38f;
-
-}
-
-nav section p {
-    padding: 1rem;
-}
-
-nav section h1 {
-    padding: 1rem;
-}
-
-figure {
-    margin: 0px;
-}
-
-figure img {
-    width: 100%;   
-    max-height: 400px;
-    min-height: 400px;
-    object-fit: cover;
-    justify-content: center;
-}
-
-.desktop {
-    opacity: 0.75;
-    margin: 0 auto;
-}
-
 a {
     text-decoration: none;
     color: darkred;
@@ -61,6 +17,34 @@ a {
 
 h1 {
     letter-spacing: 3px;
+}
+
+.parent {
+    background-color: #c7a38f;
+    display: flex;
+    padding: 1em;
+    
+    flex-wrap: wrap;
+    border-radius: 1em;
+    align-items: center;
+    gap: 1rem;
+}
+  
+img{
+    border-radius: 12px;
+    width: 100%;
+}
+  
+.image{
+    flex-basis: 60%;
+    flex-grow: 1;
+    min-width: 10rem;
+}
+  
+.text{
+    flex-basis: 35%;
+    flex-grow: 1;
+    min-width: 10rem;
 }
 
 p {
@@ -80,6 +64,17 @@ p {
     border: solid darkred;
 
     padding: 5px;
+}
+
+figure {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+figure img {
+    width: 100%;   
+    max-width: 500px;
+    justify-content: center;
 }
 
 footer {
