@@ -1,0 +1,98 @@
+body {
+    background-color: grey;
+    flex-wrap: wrap;
+
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    background-color:darkgray;
+    padding: 2rem;
+    color: #666666;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    padding: 2rem;
+    background-color: #666666;
+}
+
+a {
+    font-size: 20px;
+    color: darkgray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+h1:hover {
+    color: magenta;
+}
+
+h2:hover {
+    color:springgreen
+}
+
+p {
+    text-align: center;
+    padding: 2rem;
+    font-size: 18px;
+}
+
+.p1:hover {
+    background-color: red;
+    color: greenyellow;
+}
+
+.p2:hover {
+    background-color: orange;
+    color: blueviolet;
+}
+
+.p3:hover {
+    background-color: yellow;
+    color: purple;
+}
+
+.p4:hover {
+    background-color: green;
+    color: orangered;
+}
+
+.p5:hover {
+    background-color: blue;
+    color: orange;
+}
+
+.p6:hover {
+    background-color: indigo;
+    color: yellow;
+}
+
+.p7:hover {
+    background-color: violet;
+    color: white;
+}
+
+figure {
+    
+}
+
+.moon {
+    justify-content: center;
+}
+
+img {
+    justify-content: center;
+    transition: opacity 0.5s ease-in-out;
+}
+
+img:hover {
+    opacity: 0%;
+}
