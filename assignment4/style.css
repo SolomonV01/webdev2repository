@@ -3,6 +3,12 @@ body {
     flex-wrap: wrap;
 
     margin: 0 auto;
+    background-repeat: none;
+}
+
+body:hover {
+    background-repeat: none;
+    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,138,0,1) 18%, rgba(255,207,0,1) 38%, rgba(0,255,4,1) 57%, rgba(11,0,255,1) 79%, rgba(212,0,255,1) 100%, rgba(212,0,255,1) 100%);
 }
 
 h1, h2 {
@@ -10,6 +16,18 @@ h1, h2 {
     background-color:darkgray;
     padding: 2rem;
     color: #666666;
+}
+
+h1:hover {
+    background-color: greenyellow;
+}
+
+.links:hover {
+    background-color: purple;
+}
+
+h2:hover {
+    background-color: magenta;
 }
 
 .links {
@@ -80,19 +98,18 @@ p {
     color: white;
 }
 
-figure {
-    
-}
-
-.moon {
-    justify-content: center;
+.moon:hover {
+    color: mediumvioletred;
 }
 
 img {
-    justify-content: center;
+    position: absolute;
+    top: 80%;
+
+    opacity: 0.2;
     transition: opacity 0.5s ease-in-out;
 }
 
 img:hover {
-    opacity: 0%;
+    opacity: 100%;
 }
