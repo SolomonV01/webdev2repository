@@ -1,7 +1,5 @@
 //alert("Welcome to GHOST!")
 
-
-
 function myFunction() {
   var x = document.getElementById("hidden");
   if (x.style.display === "none") {
