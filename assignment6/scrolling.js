@@ -1,7 +1,6 @@
 $(window).scroll(function() {
     var $window = $(window),
         $body = $('body'),
-        $panel = $('.panel');
     
     var scroll = $window.scrollTop() + ($window.height() / 3);
    
@@ -14,7 +13,7 @@ $(window).scroll(function() {
           return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
         });
          
-        $body.addClass('color-' + $(this).data('color'));
+        $body.addClass('section' + $(this).data('section'));
       }
     });    
     
