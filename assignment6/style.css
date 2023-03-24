@@ -56,6 +56,7 @@ a {
     background-image: url('images/sunsetwindow.jpg');
 
     height: 100%;
+    width: 100%;
 
     background-attachment: fixed;
     background-position: center;
@@ -67,6 +68,19 @@ a {
     background-image: url('images/disneyworld.jpeg');
 
     height: 100%;
+    width: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    background-image: url('images/miniature.jpg');
+
+    height: 100%;
+    width: 100%;
 
     background-attachment: fixed;
     background-position: center;
@@ -77,6 +91,35 @@ a {
 .container {
     height: 100%;
     
+}
+
+.back-to-top {
+    background-color: lightblue;
+    color: steelblue;
+    opacity: 90%;
+
+    padding: 1.5rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
 
 footer {
