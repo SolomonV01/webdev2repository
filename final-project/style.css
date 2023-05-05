@@ -1,0 +1,183 @@
+body {
+    box-sizing: border-box; 
+    display: flex;
+    margin: 0 auto;
+    min-height: 100vh;
+    flex-direction: column;
+    
+    font-family: "Optima", sans-serif;
+    background: #b9c8a8;
+
+    -webkit-text-stroke: white;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+p {
+    color: #b9cad6;
+    -webkit-text-stroke: white;
+    -webkit-text-stroke-width: 0.5px;
+    
+    padding: 1rem;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-size: 18px;
+}
+
+.wrapper {
+    flex-grow: 1;
+}
+
+.my-image {
+    width: 50%;
+    max-width: 500px;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+}
+
+.self {
+    flex-basis: 40%;
+    flex-grow: 1;
+
+    max-width: 400px;
+}
+
+img {
+    width: 100%;
+    min-width: 300px;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+
+}
+
+video {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+    
+}
+
+.links {
+    background-color: #d9c091;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+
+
+}
+
+a{
+    text-align: end;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+    color: #e6c2da;
+    -webkit-text-stroke: white;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #b9cad6;
+
+    letter-spacing: 4px;
+}
+
+.flexbox {
+    display: flex;
+    padding: 1em;
+  
+    flex-wrap: wrap;
+    border-radius: 1em;
+    align-items: center;
+    gap: 1rem 5rem; 
+
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.text {
+    flex-basis: 35%;
+    flex-grow: 1;
+    min-width: 14rem;
+    max-width: 50ch;
+    line-height: 1.75;
+}
+
+.contact {
+    width: 50%;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+}
+
+.gmail {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+  
+.gallery img {
+    width: 100%;
+    flex-basis: 30%;
+    flex-grow: 1;
+    min-width: 200px;
+  
+}
+
+.back-to-top {
+    background-color: #d9c091;
+    padding: 1.5rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: #d9c091;
+    padding: 1rem;
+}
+
+.music {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1rem;
+    align-content: center;
+}
