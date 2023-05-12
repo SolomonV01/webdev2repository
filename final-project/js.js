@@ -28,3 +28,14 @@ function zelda() {
       x.style.display = "none";
     }
 }
+
+
+
+function reflection() {
+  var x = document.getElementById("hiddenR");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

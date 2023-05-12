@@ -113,6 +113,31 @@ h1, h2, h3 {
     justify-content: center;
 }
 
+.parallax {
+    background-image: url('images/ee.jpg');
+
+    height: 100%;
+    width: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+
+    min-width: none;
+    max-width: 300px;
+}
+
+.titlelogo {
+    min-width: none;
+    max-width: 200px;
+}
+
 .text {
     flex-basis: 35%;
     flex-grow: 1;
